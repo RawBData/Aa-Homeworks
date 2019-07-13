@@ -27,11 +27,11 @@ class Stack
     end
 
     def enqueue(el)
-        @queue.shift(el)
+        @queue.push(el)
     end
 
     def pop
-        @queue.pop
+        @queue.shift
     end
 
     def peek

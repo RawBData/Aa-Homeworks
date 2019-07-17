@@ -40,3 +40,10 @@ class Board
   def winner
   end
 end
+
+=begin
+display val
+display
+=end
+
+
